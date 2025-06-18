@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+    background-color: aliceblue;
+    align-items: center;
+    display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+
+}
+.box{
+    margin: 50px;
+    padding: 25px;
+    background: gray;
+    width: 500px;
+    box-shadow: 5px 0 7px;
+    border-top: 5px solid blue;
+    
+}
+
+.box h1{
+    font-size: 24px;
+    text-align: center;
+    line-height: 24px;
+    padding: 30px;
+
+}
+.form group{
+
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+    grid-template-columns: minmax();
+
+}
